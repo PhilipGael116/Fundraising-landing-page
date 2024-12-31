@@ -1,0 +1,157 @@
+body {
+    background-image: url(./images/donate-img.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    position: relative;
+    height: 100vh;
+}
+
+.header {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 20px;
+}
+
+.help-head {
+    width: 50px;
+    height: 60px;
+}
+
+.ul {
+    display: flex;
+    gap: 4rem;
+} 
+
+.icon{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.icon > div > p{
+    font-family: Bebas Neue, Arial, sans-serif;
+    color: rgb(220, 219, 219);
+    font-size: 20;
+    padding: 0;
+    margin: 0;
+}
+
+.image-head { 
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.li {
+    font-size: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 219, 219);
+}
+
+
+.donate-button {
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    background-color: rgb(247, 193, 57);
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30em;
+    height: 75%;
+    position: relative;
+    top: 120px;
+    left: 150px;
+    gap: 10rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 510px);
+    grid-template-rows: 1fr;
+    /* grid-template-rows: 30px 500px; */
+    border-radius: 5px;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(250, 235, 215, 0.7);
+    /* backdrop-filter: blur(10px); */
+}
+
+.img-main > img{
+    width: 510px;
+    height: 510px;
+    max-width: 30em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.advice {
+    display: flex;
+    background-color: rgb(250, 235, 215, 0.7);
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 1200px;
+    gap: 2em;
+    
+    border-radius: 5px;
+    flex-basis: 510px;
+    top: 150px;
+    left: 150px;
+}
+
+.mission {
+    text-align: center;
+    background-color: rgb(250, 235, 215, 0.7);
+    position: relative;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 1200px;
+    top: 150px;
+    left: 150px;
+}
+
+.item {
+    width: 300px;
+    align-self: center;
+}
+
+.item:hover {
+    width: 305px;
+    background-color: rgb(250, 235, 215, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.item img {
+    width: 50%;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(250, 235, 215, 0.7);
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    gap: 2em;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+
